@@ -21,4 +21,7 @@ Below graphs show the ditribution of paid-off an collection in both genders base
 ![alt text](https://github.com/nmshafie1993/Coursera_ml_python/blob/master/gender%20vs%20age.png)<br>
 
 # Model Building
-Using encoding approach, the categorical data has been transformed to dummy data. Then, the most 
+Using encoding approach, the categorical data has been transformed to dummy data.  The data have been splitted into train and tests sets with a test size of 20%. Then, the most important features has been kept. Using the training set, 4 different models has been built based on K Nearest Neighbor(KNN), Decision Tree, Support Vector Machine, and Logistic Regression.
+
+# Model performance
+Using Jaccard, F1 score, and log loss, the performance of the models have been compared.
